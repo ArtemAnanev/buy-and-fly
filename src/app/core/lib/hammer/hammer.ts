@@ -1,5 +1,6 @@
+import type { EnvironmentProviders, Provider } from '@angular/core';
+import { importProvidersFrom, Injectable } from '@angular/core';
 import { HAMMER_GESTURE_CONFIG, HammerGestureConfig, HammerModule } from '@angular/platform-browser';
-import { EnvironmentProviders, importProvidersFrom, Injectable, Provider } from '@angular/core';
 
 @Injectable()
 export class HammerConfig extends HammerGestureConfig {
