@@ -1,4 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
+
 import { GetPathParams, getRoute, PathValues } from './navigation';
 
 @Pipe({
