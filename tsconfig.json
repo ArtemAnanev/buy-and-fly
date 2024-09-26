@@ -25,7 +25,10 @@
     "baseUrl": ".",
     "paths": {
       "@baf/core": ["src/app/core/index.ts"],
-      "@baf/ui/layout": ["src/app/ui/layout/index.ts"]
+      "@baf/ui/layout": ["src/app/ui/layout/index.ts"],
+      "@baf/ui/utils": ["src/app/ui/utils/index.ts"],
+      "@baf/ui/buttons": ["src/app/ui/buttons/index.ts"],
+      "@baf/ui/icons": ["src/app/ui/icons/index.ts"],
     }
   },
   "angularCompilerOptions": {
